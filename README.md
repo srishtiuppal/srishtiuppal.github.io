@@ -1,44 +1,45 @@
+<!DOCTYPE html>
 <html lang="en">
-    
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Srishti's Blog</title>
     <link rel="stylesheet" href="style.css">
 </head>
-    
 <body>
     <header>
-        <h1>My Portfolio</h1>
+        <h1>Prathy's Blog</h1>
         <nav>
             <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#portfolio">Power BI Portfolio</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#sessionize">Sessionize</a></li>
+                <li><a href="#policy">Privacy Policy</a></li>
             </ul>
         </nav>
     </header>
     
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Welcome to my portfolio! I'm a passionate developer.</p>
-    </section>
-    
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Project 1</h3>
-            <p>Description of project 1.</p>
+    <section id="portfolio" class="portfolio-section">
+        <h2>Power BI Portfolio</h2>
+        <p>I am creating a portfolio for my PowerBI dashrboards with an ambition to add one each day.</p>
+        <div class="filter-buttons">
+            <button class="filter" data-category="all">All</button>
+            <button class="filter" data-category="powerbi">Power BI</button>
+            <button class="filter" data-category="portfolio">Portfolio</button>
         </div>
-        <div class="project">
-            <h3>Project 2</h3>
-            <p>Description of project 2.</p>
+        <div class="portfolio-grid">
+            <div class="powerbi-report" data-category="powerbi">
+                <div class="report-box">UK Companies Data</div>
+            </div>
+            <div class="powerbi-report" data-category="portfolio">
+                <div class="report-box">BBC 100 Women</div>
+            </div>
+            <div class="powerbi-report" data-category="portfolio">
+                <div class="report-box">Zodiac Signs</div>
+            </div>
         </div>
-    </section>
-    
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: example@email.com</p>
     </section>
     
     <script src="script.js"></script>
