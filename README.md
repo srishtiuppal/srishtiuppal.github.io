@@ -15,9 +15,6 @@
                 <li><a href="#home">Home</a></li>
                 <li><a href="#portfolio">Power BI Portfolio</a></li>
                 <li><a href="#about">About Me</a></li>
-                <li><a href="#categories">Categories</a></li>
-                <li><a href="#sessionize">Sessionize</a></li>
-                <li><a href="#policy">Privacy Policy</a></li>
             </ul>
         </nav>
     </header>
