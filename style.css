@@ -1,1 +1,101 @@
 
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e; /* Dark background */
+    color: #ffffff; /* Light text */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #ff00ff; /* Bright pink title */
+    font-size: 32px;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ff00ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ffffff;
+}
+
+/* Portfolio Section */
+.portfolio-section {
+    text-align: center;
+    padding: 40px;
+}
+
+/* Filter Buttons */
+.filter-buttons {
+    margin-bottom: 20px;
+}
+
+.filter {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #ff00ff;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.filter:hover {
+    background-color: #ffffff;
+    color: #ff00ff;
+}
+
+/* Portfolio Grid */
+.portfolio-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.powerbi-report {
+    background-color: #292929;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.powerbi-report:hover {
+    transform: scale(1.05);
+}
+
+/* Report Boxes */
+.report-box {
+    background-color: #444;
+    color: #ff00ff;
+    padding: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
