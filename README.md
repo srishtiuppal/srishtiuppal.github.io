@@ -29,17 +29,6 @@
             <button class="filter" data-category="powerbi">Power BI</button>
             <button class="filter" data-category="portfolio">Portfolio</button>
         </div>
-        <div class="portfolio-grid">
-            <div class="powerbi-report" data-category="powerbi">
-                <div class="report-box">UK Companies Data</div>
-            </div>
-            <div class="powerbi-report" data-category="portfolio">
-                <div class="report-box">BBC 100 Women</div>
-            </div>
-            <div class="powerbi-report" data-category="portfolio">
-                <div class="report-box">Zodiac Signs</div>
-            </div>
-        </div>
     </section>
     
     <script src="script.js"></script>
