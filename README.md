@@ -11,9 +11,9 @@
         <h1>Srishti's Blog</h1>
         <nav>
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#portfolio">Power BI Portfolio</a></li>
-                <li><a href="#about">About Me</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">Power BI Portfolio</a></li>
+                <li><a href="about.html">About Me</a></li>
             </ul>
         </nav>
     </header>
