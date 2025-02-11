@@ -21,17 +21,7 @@
             </ul>
         </nav>
     </header>
-    
-    <section id="portfolio" class="portfolio-section">
-        <h2>Power BI Portfolio</h2>
-        <p>I am creating a portfolio for my PowerBI dashrboards with an ambition to add one each day.</p>
-        <div class="filter-buttons">
-            <button class="filter" data-category="all">All</button>
-            <button class="filter" data-category="powerbi">Power BI</button>
-            <button class="filter" data-category="portfolio">Portfolio</button>
-        </div>
-    </section>
-    
+       
     <script src="script.js"></script>
 </body>
 </html>
